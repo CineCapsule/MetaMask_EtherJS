@@ -1,12 +1,9 @@
-//import logo from './logo.svg';
-import './App.css';
-import WalletCardEthers from'./WalletCardEthers';
-
+import "./App.css";
+import WalletCardEthers from "./components/WalletCardEthers";
 function App() {
-
   return (
     <div className="App">
-    <WalletCardEthers/>
+      <WalletCardEthers />
     </div>
   );
 }
